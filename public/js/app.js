@@ -1,4 +1,4 @@
-console.log('Js loaded');
+
 //fetch is a browser native API used to retrieve data from a server/address etc, but the
 //then method is part of the promises APIs for asyncronous functionality.
 //the json() method is there to parse the response so we can acces the part we want
