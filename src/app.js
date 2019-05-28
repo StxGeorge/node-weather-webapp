@@ -44,7 +44,7 @@ App.get('/about', (req, res) => {
 App.get('/help', (req, res) => {
     res.render('help', {
         title: 'help',
-        mainh1: 'hbs help'
+        mainh1: 'Under construction'
     });
 });
 
