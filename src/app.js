@@ -36,7 +36,7 @@ App.get('', (req, res) => {
 App.get('/about', (req, res) => {
     res.render('about', {
         title: 'About',
-        name: 'federico'
+        name: 'Federico Saraco'
     });
 });
 
@@ -98,7 +98,7 @@ App.get('/weather', (req, res) => {
                 });
             }
             //console.log(location);
-            //console.log(forecastData);
+            console.log(forecastData);
             res.send({
                 address: req.query.address,
                 location: location,

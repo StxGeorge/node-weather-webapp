@@ -35,10 +35,10 @@ weatherForm.addEventListener('submit', (e) => {
             errorMsg.textContent = '';
             const rain = Math.floor(data.forecast.rainChance * 100);
             locationMsg.textContent = `${data.location}`;
-            tempMsg.textContent = `the temperature right now is ${data.forecast.tempNow} °C, the rain chance is %${rain}, ${data.forecast.summary}`;
+            tempMsg.textContent = `the temperature right now is ${data.forecast.tempNow} °C, ranging between ${data.forecast.tempLow} and ${data.forecast.tempHigh} degrees. The rain chance is %${rain}. ${data.forecast.summary}`;
             
             //console.log(data.location);
-            //console.log(data.forecast.rainChance);
+            //console.log(data.forecast);
         }
     });
 });
